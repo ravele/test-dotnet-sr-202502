@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ApplicantTracking.Application\ApplicantTracking.Application.csproj" />
     <ProjectReference Include="..\ApplicantTracking.Domain\ApplicantTracking.Domain.csproj" />
   </ItemGroup>
